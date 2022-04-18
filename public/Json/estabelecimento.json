@@ -1,0 +1,30 @@
+{
+    "estabelecimentos": [
+        {
+            "id_estabelecimento": 1,
+            "nome": "Estabelecimento A",
+			"descricao": "",
+			"horario": "Aberto todos os dias das 9h às 18h",
+			"endereco": {
+				"logradouro": "Rua 24 de maio, 15",
+				"bairro": "Centro",
+				"cidade": "Indaiatuba-SP",
+				"cedp": "13330000"
+			},
+            "imagem": ""
+        },
+        {
+            "id_estabelecimento": 2,
+            "nome": "Estabelecimento B",
+			"horario": "Aberto de segunda à sexta das 9h às 18h",
+			"endereco": {
+				"logradouro": "Av. Ario Barnabé, 1875",
+				"bairro": "Jardim Morada do Sol",
+				"cidade": "Indaiatuba-SP",
+				"cedp": "13330000"
+			},
+			"imagem": ""
+        }
+       
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "categorias": [
+        {
+            "id_grupo": 1,
+            "id_estabelecimento": 1,
+            "descricao": "Esfihas",
+            "imagem": ""
+        },
+        {
+            "id_grupo": 2,
+            "id_estabelecimento": 1,
+            "descricao": "Fogazzas",
+            "imagem": ""
+        },
+        {
+            "id_grupo": 6,
+            "id_estabelecimento": 1,
+            "descricao": "Beirutes",
+            "imagem": ""
+        },
+        {
+            "id_grupo": 7,
+            "id_estabelecimento": 1,
+            "descricao": "Sobremesa",
+            "imagem": ""
+        },
+        {
+            "id_grupo": 8,
+            "id_estabelecimento": 2,
+            "descricao": "Esfihas",
+            "imagem": ""
+        },
+		{
+            "id_grupo": 9,
+            "id_estabelecimento": 2,
+            "descricao": "Sobremesa",
+            "imagem": ""
+        },
+        {
+            "id_grupo": 10,
+            "id_estabelecimento": 2,
+            "descricao": "Refeição",
+            "imagem": ""
+        }
+    ]
+}

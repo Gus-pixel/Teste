@@ -1,0 +1,167 @@
+{
+    "produtos": [
+        {
+            "id_produto": 3,
+            "id_estabelecimento": 1,
+            "id_grupo": 1,
+            "nome": "Esfiha de Calabresa",
+            "descricao": "",
+            "vr_unitario": 3.9,
+            "imagem": "",
+            "complementos": [
+                {
+                    "id_categoria_complemento": 4,
+                    "nome_categoria": "Selecione um adicional",
+                    "descricao_categoria": "",
+                    "qtde_maxima": 3,
+                    "qtde_min": 1,
+                    "uso_obrigatorio": 1,
+                    "modo_multiplo": 1,
+                    "sequencia": 0,
+                    "itens": [
+                        {
+                            "id_complemento": 7,
+                            "id_categoria_complemento": 4,
+                            "nome_complemento": "Batata palha",
+                            "descricao_complemento": "",
+                            "vr_adicional": 0,
+                            "cod_externo": "",
+                            "sequencia": 0
+                        },
+                        {
+                            "id_complemento": 8,
+                            "id_categoria_complemento": 4,
+                            "nome_complemento": "Queijo Cheddar",
+                            "descricao_complemento": "",
+                            "vr_adicional": 3,
+                            "cod_externo": "",
+                            "sequencia": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_produto": 12,
+            "id_estabelecimento": 1,
+            "id_grupo": 6,
+            "nome": "Beirute de picanha",
+            "descricao": "Carne de carneiro",
+            "vr_unitario": 20.5,
+            "imagem": "",
+            "complementos": null
+        },
+        {
+            "id_produto": 11,
+            "id_estabelecimento": 1,
+            "id_grupo": 6,
+            "codigo_controle": "",
+            "nome": "Beirute de presunto e queijo",
+            "descricao": "Com baixa caloria. Acompanha peito de peru defumado, molho especial, cenoura ralada, mussarela ralada, alface e tomate no pão Sírio. (365g)",
+            "vr_unitario": 19.6,
+            "imagem": "",
+            "complementos": null
+        },
+        {
+            "id_produto": 1,
+            "id_estabelecimento": 1,
+            "id_grupo": 1,
+            "codigo_controle": "1",
+            "nome": "Esfiha de Carne",
+            "descricao": "Esfiha de carne com temperos árabes",
+            "vr_unitario": 3.9,
+            "imagem": "",
+            "complementos": [
+                {
+                    "id_categoria_complemento": 9,
+                    "nome_categoria": "Selecione um complemento",
+                    "descricao_categoria": "",
+                    "qtde_maxima": 1,
+                    "qtde_min": 1,
+                    "uso_obrigatorio": 0,
+                    "modo_multiplo": 0,
+                    "sequencia": 0,
+                    "itens": null
+                }
+            ]
+        },
+        {
+            "id_produto": 14,
+            "id_estabelecimento": 2,
+            "id_grupo": 1,
+            "nome": "Esfiha 4 queijos",
+            "descricao": "",
+            "vr_unitario": 0.02,
+            "imagem": "",
+        },
+        {
+            "id_produto": 17,
+            "id_estabelecimento": 2,
+            "id_grupo": 1,
+            "nome": "Esfiha de Brócolis ",
+            "descricao": "Esfiha de brócolis, bacon e mussarela",
+            "vr_unitario": 3.9,
+            "imagem": "",
+        },
+        {
+            "id_produto": 19,
+            "id_estabelecimento": 2,
+            "id_grupo": 1,
+            "nome": "Esfiha de frango com catupiry ",
+            "descricao": "Esfiha de frango com catupiry",
+            "vr_unitario": 3.9,
+            "imagem": "",
+        },
+        {
+            "id_produto": 2,
+            "id_estabelecimento": 1,
+            "id_grupo": 1,
+            "nome": "Esfiha de Queijo",
+            "descricao": "Esfiha de queijo mussarela",
+            "vr_unitario": 3.9,
+            "imagem": "",
+            "complementos": [
+                {
+                    "id_categoria_complemento": 3,
+                    "nome_categoria": "Selecione uma categoria",
+                    "descricao_categoria": "",
+                    "qtde_maxima": 1,
+                    "qtde_min": 1,
+                    "uso_obrigatorio": 0,
+                    "modo_multiplo": 1,
+                    "sequencia": 1,
+                    "itens": [
+                        {
+                            "id_complemento": 10,
+                            "id_categoria_complemento": 3,
+                            "nome_complemento": "Salada tomate",
+                            "descricao_complemento": "",
+                            "vr_adicional": 3.9,
+                            "cod_externo": "",
+                            "sequencia": 1
+                        },
+                        {
+                            "id_complemento": 2,
+                            "id_categoria_complemento": 3,
+                            "nome_complemento": "Bacon",
+                            "descricao_complemento": "",
+                            "vr_adicional": 2,
+                            "cod_externo": "",
+                            "sequencia": 2
+                        },
+                    ]
+                },
+            ]
+        },
+        {
+            "id_produto": 4,
+            "id_estabelecimento": 1,
+            "id_grupo": 2,
+            "codigo_controle": "",
+            "nome": "Fogazza Frango com Mussarela",
+            "descricao": "",
+            "vr_unitario": 7.9,
+            "imagem": "",
+        },
+    ]
+}
