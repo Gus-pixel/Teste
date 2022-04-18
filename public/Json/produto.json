@@ -92,7 +92,7 @@
             "nome": "Esfiha 4 queijos",
             "descricao": "",
             "vr_unitario": 0.02,
-            "imagem": "",
+            "imagem": ""
         },
         {
             "id_produto": 17,
@@ -101,7 +101,7 @@
             "nome": "Esfiha de Brócolis ",
             "descricao": "Esfiha de brócolis, bacon e mussarela",
             "vr_unitario": 3.9,
-            "imagem": "",
+            "imagem": ""
         },
         {
             "id_produto": 19,
@@ -110,7 +110,7 @@
             "nome": "Esfiha de frango com catupiry ",
             "descricao": "Esfiha de frango com catupiry",
             "vr_unitario": 3.9,
-            "imagem": "",
+            "imagem": ""
         },
         {
             "id_produto": 2,
@@ -148,9 +148,9 @@
                             "vr_adicional": 2,
                             "cod_externo": "",
                             "sequencia": 2
-                        },
+                        }
                     ]
-                },
+                }
             ]
         },
         {
@@ -161,7 +161,7 @@
             "nome": "Fogazza Frango com Mussarela",
             "descricao": "",
             "vr_unitario": 7.9,
-            "imagem": "",
-        },
+            "imagem": ""
+        }
     ]
 }

@@ -6,7 +6,6 @@ import Home from "./components/Home/Home";
 
 function App() {
   const [post, setPost] = React.useState([]);
-  const [estab, setEstab] = React.useState([]);
 
   React.useEffect(() => {
     axios.get("/Json/estabelecimento.json").then((response) => {
@@ -14,15 +13,10 @@ function App() {
     });
   }, []);
 
-  let nomes = post.map((estabelecimento) => (
-    estabelecimento.nome
-    ))
-
   return (
     <>
-      <Navbar nomes = {nomes}/>
+      <Navbar nomes={post} />
       <Home />
-      {/* <Route exact path="/" component={Home}/> */}
     </>
   );
 }

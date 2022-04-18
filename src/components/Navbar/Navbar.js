@@ -4,10 +4,9 @@ export default function Navbar(props) {
   
   let estab = props.nomes.map((estabelecimento) => (
     <li className="nav-item">
-    <a className="nav-link active" aria-current="page" href="est1">{estabelecimento}</a>
+    <a className="nav-link active" aria-current="page" href={`/estabelecimentos/${estabelecimento.id_estabelecimento}`} key={estabelecimento.id_estabelecimento}>{estabelecimento.nome}</a>
     </li>
 ))
-    
 
   return (
   <>
