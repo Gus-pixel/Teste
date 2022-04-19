@@ -4,8 +4,9 @@ import axios from "axios";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 
+
 function App() {
-  const [post, setPost] = React.useState([]);
+  const [post, setPost] = React.useState([])
 
   React.useEffect(() => {
     axios.get("/Json/estabelecimento.json").then((response) => {

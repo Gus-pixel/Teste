@@ -10,7 +10,7 @@ export default function Navbar(props) {
 
   return (
   <>
-  <nav className="navbar navbar-expand-lg navbar-dark bg-danger ">
+  <nav className="navbar navbar-expand-lg navbar-dark bg-danger sticky-top shadow-lg p-3 mb-5 rounded">
   <div className="container-fluid">
   <a className="navbar-brand mb-0 h1" aria-current="page" href="/">Restaurantes</a>
     <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
