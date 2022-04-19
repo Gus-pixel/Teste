@@ -63,7 +63,6 @@ export default function Carousel(props) {
   return (
     <>
       <h1 style={{ color: "#F5322E" }}>
-        <br/>
         <b>Destaques</b>
       </h1>
       <div

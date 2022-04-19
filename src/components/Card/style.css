@@ -6,8 +6,13 @@
     margin-top: 2%;
     margin-left: 1%;
     margin-right: 2%;
+    margin-bottom: 4%;
 }
 
 .col {
     display: contents;
+}
+
+.sumirCard {
+    display: none;
 }

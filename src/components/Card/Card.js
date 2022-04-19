@@ -5,7 +5,7 @@ import "./style.css";
 
 export default function Card(props) {
   let produto = props.produtos.map((produtos_lista) => (
-    <div className="card " style={{ width: "18rem" }}>
+    <div data-nome = {produtos_lista.nome} className="card " style={{ width: "18rem" }}>
       <img
         src={produtos_lista.imagem}
         className="card-img-top"

@@ -1,5 +1,21 @@
 import React from "react";
 
+const filtrar = () => { 
+  const itemsNL = document.querySelectorAll('.card');
+  const input = document.getElementById('pesquisa');
+  const items = Array.from(itemsNL);
+  
+
+  items.map((itemN) => { if(itemN.classList.contains('sumirCard')) {
+    itemN.classList.remove('sumirCard');
+} });
+const filtrado = items.filter((item) => (item.dataset.nome.includes(input.value)? false : item));
+  if(filtrado.lenght !== 0 ){
+    filtrado.map((itemF) => ( itemF.classList.add('sumirCard') ));
+  }
+  console.log(filtrado);
+}
+
 export default function Navbar(props) {
   
   let estab = props.nomes.map((estabelecimento) => (
@@ -21,8 +37,8 @@ export default function Navbar(props) {
        {estab}
       </ul>
       <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-danger btn-outline-light" type="submit" >Search</button>
+        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="pesquisa" name="pesquisa" onSubmit={filtrar}/>
+        <button className="btn btn-danger btn-outline-light" type="button" onClick={filtrar}>Search</button>
       </form>
     </div>
   </div>
